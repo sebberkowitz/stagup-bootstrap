@@ -46,3 +46,13 @@ h1 {
 .featured-events-bottom h3 {
   font-size:20px;
 }
+/*---- Panel/Menu Styling ----*/
+.panel-primary {
+  border-color: #cccccc;
+}
+.panel-primary .panel-heading {
+  background-color: #333333;
+}
+nav li {
+  list-style:none outside;
+}
