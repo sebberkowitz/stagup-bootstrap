@@ -12,7 +12,17 @@ h1 {
     background-color: #C6102E; /* bright cherry red */
     border-color: #A50D27; /* a darker shade of the same red */
 }
+.btn-primary:hover {
+  background-color: hsl(350,85%,35%);
+}
+.btn-primary:active {
+  background-color: hsl(350,85%,30%);
+}
+.btn-primary:active:hover, .btn-primary.active:hover {
+  background-color: hsl(350,85%,30%);
+}
 /*---- Navbar Styling ----*/
+body { padding-top: 50px; }
 .navbar-brand { padding: 6px 15px;}
 /*---- Feature-Panel Styling ----*/
 .feature-panel h1, .feature-panel h2, .feature-panel h3 {
@@ -67,4 +77,9 @@ nav li {
 }
 #investors .thumbnail p {
   min-height: 6em;
+}
+/*---- Footer Styling ----*/
+footer.page-footer.row{
+  background-color:#333333;
+  padding: 32px 0;
 }
