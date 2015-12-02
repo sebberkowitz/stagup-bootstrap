@@ -56,3 +56,15 @@ h1 {
 nav li {
   list-style:none outside;
 }
+.panel .media {
+  margin-bottom: 1em;
+}
+.thumbnail img {
+  width:100%;
+}
+.thumbnail h3 {
+  font-size: 1.1em;
+}
+#investors .thumbnail p {
+  min-height: 6em;
+}
